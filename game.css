@@ -6,8 +6,8 @@ body {
   margin: 1px auto;
   padding: 3px;
   width: 9em;
-  height: 12em;
-  line-height: 12em;
+  height: 10em;
+  line-height: 10em;
   z-index: 1;
 }
 
@@ -52,6 +52,7 @@ body {
 
 .face.back {
   display: block;
+  margin:0px
   color: white;
   font-size: 6em;
   background-color: #FFCC66;
@@ -70,15 +71,15 @@ table {
 
 #timer {
   display: block;
-  margin: auto;
+  margin: 0px auto 15px auto;
   padding: auto;
   position: relative;
   width: 150px;
-  height: 50px;
+  height: 60px;
   line-height: 50px;
   background-color: #fff;
   border-radius: 25px;
-  border: 2px solid #1abc9c;
+  border: 5px solid blue;
   font-size: 40px;
   text-align: center;
   color: #999;
@@ -111,6 +112,7 @@ table {
 .cntr {
   width: 90%;
   margin: 15px auto;
+  padding: 15px;
   border: 2px solid blue;
   border-radius: 8px;
   margin-top: 50px auto;
@@ -134,4 +136,9 @@ table {
   margin-right: 650px auto;
   margin-left: 650px auto;
   background-color: rgb(98, 184, 214);
+}
+
+h1 {
+  margin: auto;
+  padding: 20px;
 }
